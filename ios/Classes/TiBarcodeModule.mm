@@ -269,6 +269,7 @@ static zxing::DecodeHints decodeHints;
 	}
 	
 	[[TiApp app] showModalController:controller animated:YES];
+	return controller;
 }
 
 -(void)cancel:(id)args
